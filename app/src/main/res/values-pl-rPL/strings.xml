@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShortcutsApp</string>
+    <string name="MainActivityString">To jest MainActivity uruchomione normalnie.</string>
+    <string name="ShortcutActivityString">To jest ShortcutActivity uruchomione ze skrótu.</string>
+    <string name="sh_short">Skrót</string>
+    <string name="sh_disabled">Nie ma</string>
+</resources>

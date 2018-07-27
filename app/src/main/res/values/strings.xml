@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortcutsApp</string>
+    <string name="MainActivityString">This is MainActivity launched normally.</string>
+    <string name="ShortcutActivityString">This is ShortcutActivity launched from shortcut.</string>
+    <string name="sh_short">Shortcut</string>
+    <string name="sh_long" translatable="false">ShortcutActivity</string>
+    <string name="sh_disabled">Nope</string>
+</resources>

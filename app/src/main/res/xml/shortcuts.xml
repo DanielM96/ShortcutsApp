@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="sh"
+        android:enabled="true"
+        android:icon="@drawable/sh_icon"
+        android:shortcutShortLabel="@string/sh_short"
+        android:shortcutLongLabel="@string/sh_long"
+        android:shortcutDisabledMessage="@string/sh_disabled">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.semprini96.shortcutsapp"
+            android:targetClass="com.semprini96.shortcutsapp.MainActivity" />
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.semprini96.shortcutsapp"
+            android:targetClass="com.semprini96.shortcutsapp.ShortcutActivity" />
+        <categories android:name="android.shortcut.main" />
+    </shortcut>
+</shortcuts>
